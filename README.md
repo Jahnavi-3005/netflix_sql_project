@@ -22,6 +22,7 @@ The data for this project is sourced from the Kaggle dataset:
 
 ## Schema
 
+```sql
 create table Netflix
 (
    show_id	varchar(10),
