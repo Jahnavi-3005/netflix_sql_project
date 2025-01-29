@@ -46,6 +46,7 @@ select * from netflix
 
 ## 1. Count the number of Movies vs TV Shows
 
+```sql
 select 
      type,count(type) as no_of_movies_and_tv_shows
 from netflix
