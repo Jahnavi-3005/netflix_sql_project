@@ -42,14 +42,6 @@ create table Netflix
 
 select * from netflix
 
-select 
-     count(*) as total_content
-from netflix;
-
-select 
-     distinct type
-from netflix;
-
 ## Business Problems & Solutions
 
 ## 1. Count the number of Movies vs TV Shows
